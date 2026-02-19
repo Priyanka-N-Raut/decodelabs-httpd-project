@@ -1,4 +1,4 @@
-🚀DecodeLabs Landing Page Deployment on AWS EC2
+#🚀DecodeLabs Landing Page Deployment on AWS EC2
 
 A modern and responsive DecodeLabs technical landing page deployed on an AWS EC2 instance using Apache HTTPD Web Server.
 
