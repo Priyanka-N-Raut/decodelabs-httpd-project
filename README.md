@@ -4,6 +4,7 @@ A modern and responsive DecodeLabs technical landing page deployed on an AWS EC2
 
 This project demonstrates real-world cloud deployment of a static website using Infrastructure as a Service (IaaS).
 
+
 📌**Project Overview**
 
 This project includes:
@@ -33,6 +34,7 @@ Linux Commands
 
 SSH
 
+
 ☁️ **Deployment Steps**
 1️⃣ Launch EC2 Instance
 
@@ -46,10 +48,12 @@ Allow HTTP (Port 80)
 
 Allow SSH (Port 22)
 
+
 2️⃣ Connect to EC2 via SSH
 ssh -i your-key.pem ec2-user@your-public-ip
 
 3️⃣ Install Apache
+
 
 For Amazon Linux:
 
@@ -79,6 +83,7 @@ sudo nano /var/www/html/index.html
 
 Paste your website code and save.
 
+
 5️⃣ Access the Website
 
 Open in browser:
@@ -94,6 +99,7 @@ decodelabs-ec2-deployment/
 ├── index.html
 └── README.md
 
+
 ✨ Features
 
 Responsive design
@@ -105,6 +111,7 @@ Smooth scroll functionality
 Apache Web Server hosting
 
 Public cloud deployment
+
 
 🎯 Learning Outcomes
 
@@ -119,6 +126,7 @@ Security Group configuration
 Linux server management
 
 Real-world cloud deployment process
+
 
 👩‍💻 **Author**
 
