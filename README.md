@@ -1,10 +1,10 @@
-🚀 DecodeLabs Landing Page Deployment on AWS EC2
+**🚀 DecodeLabs Landing Page Deployment on AWS EC2**
 
 A modern and responsive DecodeLabs technical landing page deployed on an AWS EC2 instance using Apache HTTPD Web Server.
 
 This project demonstrates real-world cloud deployment of a static website using Infrastructure as a Service (IaaS).
 
-📌 Project Overview
+📌**Project Overview**
 
 This project includes:
 
@@ -19,7 +19,7 @@ This project includes:
 ✅ Security Group configuration for HTTP access (Port 80)
 
 
-🛠 Technologies Used
+🛠 **Technologies Used**
 
 AWS EC2 (Amazon Linux / Ubuntu)
 
@@ -33,7 +33,7 @@ Linux Commands
 
 SSH
 
-☁️ Deployment Steps
+☁️ **Deployment Steps**
 1️⃣ Launch EC2 Instance
 
 Select Amazon Linux / Ubuntu AMI
@@ -88,7 +88,7 @@ http://your-public-ip
 
 Your DecodeLabs landing page will be live 🎉
 
-📂 Project Structure
+📂 **Project Structure**
 decodelabs-ec2-deployment/
 │
 ├── index.html
@@ -120,8 +120,8 @@ Linux server management
 
 Real-world cloud deployment process
 
-👩‍💻 Author
+👩‍💻 **Author**
 
-Priyanka Raut
+**Priyanka Raut**
 Cloud & DevOps Enthusiast
 Aspiring Cloud Engineer
