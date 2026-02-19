@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DecodeLabs</title>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+    color:white;
+    overflow-x:hidden;
+}
+
+/* HERO SECTION */
+
+header{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    background: linear-gradient(-45deg, #0f2027, #203a43, #2c5364, #1c92d2);
+    background-size: 400% 400%;
+    animation: gradientBG 10s ease infinite;
+}
+
+@keyframes gradientBG{
+    0%{background-position:0% 50%;}
+    50%{background-position:100% 50%;}
+    100%{background-position:0% 50%;}
+}
+
+
+header::before{
+    content:"";
+    position:absolute;
+    width:100%;
+    height:100%;
+    background:url("https://images.unsplash.com/photo-1518779578993-ec3579fee39f") no-repeat center/cover;
+    opacity:0.15;
+    z-index:-1;
+}
+
+h1{
+    font-family:'Orbitron',sans-serif;
+    font-size:4rem;
+    text-transform:uppercase;
+    letter-spacing:4px;
+    background:linear-gradient(90deg,#00f2fe,#4facfe);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    margin-bottom:20px;
+    animation:fadeIn 2s ease-in-out;
+}
+
+p{
+    font-size:1.2rem;
+    max-width:600px;
+    margin:auto;
+    opacity:0.9;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:30px;
+    padding:14px 35px;
+    border-radius:30px;
+    background:linear-gradient(90deg,#00f2fe,#4facfe);
+    color:#000;
+    font-weight:600;
+    text-decoration:none;
+    transition:0.3s;
+}
+
+.btn:hover{
+    transform:scale(1.1);
+    box-shadow:0 0 25px #00f2fe;
+}
+
+/* TECHNOLOGY SECTION */
+
+section{
+    padding:100px 10%;
+    text-align:center;
+}
+
+.section-title{
+    font-size:2.5rem;
+    margin-bottom:50px;
+    font-family:'Orbitron',sans-serif;
+    color:#00f2fe;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:30px;
+}
+
+.card{
+    background:rgba(255,255,255,0.05);
+    backdrop-filter:blur(10px);
+    padding:20px;
+    border-radius:15px;
+    transition:0.4s;
+}
+
+.card:hover{
+    transform:translateY(-12px);
+    box-shadow:0 0 20px rgba(0,242,254,0.6);
+}
+
+.card img{
+    width:100%;
+    border-radius:10px;
+    margin-bottom:15px;
+}
+
+/* FOOTER */
+
+footer{
+    padding:20px;
+    text-align:center;
+    background:#0f2027;
+    font-size:0.9rem;
+    opacity:0.7;
+}
+
+/* ANIMATION */
+
+@keyframes fadeIn{
+    from{opacity:0; transform:translateY(20px);}
+    to{opacity:1; transform:translateY(0);}
+}
+
+@media(max-width:768px){
+    h1{font-size:2.5rem;}
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+    <div>
+        <h1>Welcome to DecodeLabs</h1>
+        <p>Innovating the future through AI, Cloud, and Secure Technologies. Decode the future with us.</p>
+        <a href="#technologies" class="btn">Explore Now</a>
+    </div>
+</header>
+
+<section id="technologies">
+    <h2 class="section-title">Our Technologies</h2>
+
+    <div class="grid">
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c" alt="AI">
+            <h3>Artificial Intelligence</h3>
+            <p>Smart systems built with machine learning & deep learning.</p>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b" alt="Security">
+            <h3>Cyber Security</h3>
+            <p>Advanced security to protect digital infrastructure.</p>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4" alt="Cloud">
+            <h3>Cloud Computing</h3>
+            <p>Scalable and high-performance cloud architecture.</p>
+        </div>
+
+    </div>
+</section>
+
+<footer>
+    © 2026 DecodeLabs | Powered by Innovation
+</footer>
+
+</body>
+</html>
